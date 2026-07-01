@@ -1,1 +1,20 @@
-
+body{
+    background-color: brown;
+    color: black;
+}
+header{
+    background-color: #E6AF00;
+    color: #00A125;
+}
+main{
+    background-color: #00A125;
+    color: aliceblue;
+}
+section{
+    background-color: blue;
+    color: red;
+}
+footer{
+    background-color: aquamarine
+    color(srgb rgb(201, 0, 241) green blue)
+}
