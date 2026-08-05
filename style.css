@@ -1,6 +1,7 @@
 body{
     background-color: brown;
     color: black;
+ font: 1em sans-serif;
 }
 header{
     background-color: #E6AF00;
@@ -9,12 +10,20 @@ header{
 main{
     background-color: #00A125;
     color: aliceblue;
+    text-align: center;
+    pasdding: 30 px
 }
 section{
     background-color: blue;
     color: red;
 }
-footer{
-    background-color: aquamarine
-    color(srgb rgb(201, 0, 241) green blue)
+{
+    h1[
+        font-size:36px
+      h2  color: #E6Af00
+    ]
+}{
+    p
+    fonte-size: 18px;
+    line-height:1,6;
 }
