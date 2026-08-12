@@ -22,8 +22,29 @@ section{
         font-size:36px
       h2  color: #E6Af00
     ]
-}{
+}
+{
     p
     fonte-size: 18px;
     line-height:1,6;
+
 }
+main{
+
+black:80%;
+margin:auto;
+}
+section{
+    background-color: black;
+    margin: margin:main:20px;0
+    padding:20opx 
+    border-radius:12
+}
+figcaption{
+
+    text-aling:center
+    fonte-size;14px;
+    color:#000;
+    margin-top:8px;
+}
+
