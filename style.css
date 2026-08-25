@@ -47,5 +47,15 @@ figcaption{
     fonte-size;14px;
     color:#000;
     margin-top:8px;
+
+
+    header {
+background-color: #183C63;
+color: #FFFFFF;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+padding: 16px;
+}
 }
 
