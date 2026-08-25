@@ -1,61 +1,111 @@
-body{
+body {
     background-color: brown;
     color: black;
- font: 1em sans-serif;
- margin: 0;
+    font: Arial, sans-serif;
+    margin: 0;
 }
-header{
+
+header {
     background-color: #E6AF00;
     color: #00A125;
+    text-align: center;
+    padding: 30px;
 }
-main{
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color: #6b2d5c;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+nav{
+    margin-top: 20px;
+}
+nav{
+  color: #E6AF00;
+    text-decoration: none
+    background-color:black
+    padding;10px 15px;
+    border-radius:8px;
+    margin: 5px
+    display:inline-block
+    ;
+}
+nav a:hover{
+    background-color: #240707;
+}
+
+main {
     background-color: #00A125;
     color: aliceblue;
     text-align: center;
     pasdding: 30 px
 }
-section{
+
+section {
     background-color: blue;
     color: red;
 }
-{
-    h1[
-        font-size:36px
-      h2  color: #E6Af00
-    ]
+
+    {
+    h1[ font-size: 36px h2 color: #E6Af00]
 }
-{
-    p
-    fonte-size: 18px;
-    line-height:1,6;
+
+    {
+    p fonte-size: 18px;
+    line-height: 1, 6;
 
 }
-main{
 
-black:80%;
-margin:auto;
+main {
+
+    black: 80%;
+    margin: auto;
 }
-section{
+
+section {
     background-color: black;
-    margin: margin:main:20px;0
-    padding:20opx 
-    border-radius:12
+    margin: margin:main:20px;
+    0 padding: 20opx border-radius:12
 }
-figcaption{
 
-    text-aling:center
-    fonte-size;14px;
-    color:#000;
-    margin-top:8px;
+figcaption {
+
+    text-aling: center fonte-size;
+    14px;
+    color: #000;
+    margin-top: 8px;
+
+
+    card{
+        background-color: #6b2d5c;
+        padding: 15px;
+        margin: 15px 0;
+        border-left: 6px solid #240707;
+        border-radius: 10px;
+    }
+    card h3{
+        margin-top: 0;
+    }
+    footer{backgrund-color #f3788374
+    color;black;
+text-align: center;
+padding: 20px;
+    margin: 30px;
 
 
     header {
-background-color: #183C63;
-color: #FFFFFF;
-text-align: center;
-max-width: 800px;
-margin: 0 auto;
-padding: 16px;
+        background-color: #183C63;
+        color: #FFFFFF;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 16px;
+    }
 }
-}
-
