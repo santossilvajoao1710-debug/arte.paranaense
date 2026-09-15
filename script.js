@@ -6,7 +6,7 @@ botoescurtir.forEach(function(botacutir){
     const contador=textcontet++
     curtir=true
     else{
-        con.textconte--;
+        contador.textconte--;
         curtiu=false;
     }
 }
