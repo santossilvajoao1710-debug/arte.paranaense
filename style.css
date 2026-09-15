@@ -30,8 +30,8 @@ nav{
 nav{
   color: #E6AF00;
     text-decoration: none
-    background-color:black
-    padding;10px 15px;
+    background-color:black;
+    padding:10px 15px;
     border-radius:8px;
     margin: 5px
     display:inline-block
@@ -81,7 +81,7 @@ figcaption {
     14px;
     color: #000;
     margin-top: 8px;
-
+}
 
     card{
         background-color: #6b2d5c;
@@ -98,8 +98,19 @@ figcaption {
 text-align: center;
 padding: 20px;
     margin: 30px;
+    }
 
-
+button{
+    background-color: #0d9c89;
+    color: #240707;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #001b44;
+}
     header {
         background-color: #183C63;
         color: #FFFFFF;
@@ -107,5 +118,4 @@ padding: 20px;
         max-width: 800px;
         margin: 0 auto;
         padding: 16px;
-    }
-}
+  }
