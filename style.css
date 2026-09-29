@@ -119,3 +119,8 @@ button:hover{
         margin: 0 auto;
         padding: 16px;
   }
+  curtiu{
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+  }
