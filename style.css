@@ -24,20 +24,22 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
-nav{
+
+nav {
     margin-top: 20px;
 }
-nav{
-  color: #cb00e6;
-    text-decoration: none
-    background-color:black;
-    padding:10px 15px;
-    border-radius:8px;
-    margin: 5px
-    display:inline-block
-    ;
+
+nav a {
+    color: #cb00e6;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: #240707;
 }
 
@@ -45,62 +47,45 @@ main {
     background-color: #00A125;
     color: aliceblue;
     text-align: center;
-    pasdding: 30 px
-}
-
-section {
-    background-color: blue;
-    color: red;
-}
-
-    {
-    h1[ font-size: 36px h2 color: #E6Af00]
-}
-
-    {
-    p fonte-size: 18px;
-    line-height: 1, 6;
-
-}
-
-main {
-
-    black: 80%;
-    margin: auto;
+    padding: 30px;
 }
 
 section {
     background-color: rgb(12, 90, 5);
-    margin: margin:main:20px;
-    0 padding: 20opx border-radius:12
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
 }
 
 figcaption {
 
-    text-aling: center fonte-size;
-    14px;
-    color: #000;
+    text-align: center;
+    font-size: 14px;
+    color: #555555;
     margin-top: 8px;
 }
 
-    card{
-        background-color: #6b2d5c;
-        padding: 15px;
-        margin: 15px 0;
-        border-left: 6px solid #240707;
-        border-radius: 10px;
-    }
-    card h3{
-        margin-top: 0;
-    }
-    footer{backgrund-color #f3788374
-    color;black;
-text-align: center;
-padding: 20px;
-    margin: 30px;
-    }
+.card {
+    background-color: #6b2d5c;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid #240707;
+    border-radius: 10px;
+}
 
-button{
+.card h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #f3788374;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+
+button {
     background-color: #0d9c89;
     color: #c45b94;
     border: none;
@@ -108,19 +93,22 @@ button{
     border-radius: 8px;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: #001b44;
 }
-    header {
-        background-color: #183C63;
-        color: #911919;
-        text-align: center;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 16px;
-  }
-  curtiu{
+
+header {
+    background-color: #183C63;
+    color: #911919;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.curtiu {
     display: block;
     width: fit-content;
     margin: 20px auto;
-  }
+}
