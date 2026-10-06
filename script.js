@@ -29,7 +29,25 @@ contador.textContent++;
 
 curtiu = true;
 
+
+contador.textContent--;
+onst botoesCurtir = document.querySelectorAll(".curtir");hgn
+botoesCurtir.forEach(function(botaoCurtir){
+let curtiu false;
+botaoCurtir.addEventListener("click", curtir);
+Function curtir(){
+const contador = botaoCurtir.querySelector("span");
+if(curtiu === false) {
+contador.textContent++;
+curtiu = true;
 } else{
+contador.textContent++;
+curtiu=false;
+curtiu=false;
+
+
+} else
+
 
 contador.textContent--;
 onst botoesCurtir = document.querySelectorAll(".curtir");hgn
