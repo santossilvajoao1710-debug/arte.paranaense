@@ -1,13 +1,25 @@
+:root{
+--cor-fundo: red;
+--cor-texto: white;
+--cor-principal: #399393;
+--cor-secudaria: purple;
+--cor-hover: black;
+--cor-card:#43483;
+--cor-legenda: white;
+--cor-clara: white;
+--cor-rodepe:black;
+--cor-da-superficie:blue;
+}
 body {
-    background-color: brown;
-    color: rgb(77, 13, 13);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #E6AF00;
-    color: #00A125;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -17,7 +29,7 @@ h1 {
 }
 
 h2 {
-    color: #00ff15;
+    color: var(--cor-principal);
 }
 
 p {
@@ -30,9 +42,9 @@ nav {
 }
 
 nav a {
-    color: #cb00e6;
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: black;
+    background-color: var(--cor-secudaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -40,11 +52,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #240707;
+    background-color:var(--cor-hover);
 }
 
 main {
-    background-color: #00A125;
+    background-color: var(--cor-da-superficie);
     color: aliceblue;
     text-align: center;
     padding: 30px;
@@ -61,12 +73,12 @@ figcaption {
 
     text-align: center;
     font-size: 14px;
-    color: #555555;
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-    background-color: #6b2d5c;
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
     border-left: 6px solid #240707;
@@ -78,16 +90,16 @@ figcaption {
 }
 
 footer {
-    background-color: #f3788374;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin: 30px;
 }
 
 button {
-    background-color: #0d9c89;
-    color: #c45b94;
+    background-color:var(--cor-principal);
+    color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -95,7 +107,7 @@ button {
 }
 
 button:hover {
-    background-color: #001b44;
+    background-color:var(hover);
 }
 
 header {
